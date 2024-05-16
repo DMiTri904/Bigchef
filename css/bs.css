@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body {
+    background: url(../media/background.png) no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 50px;
+}
+.carousel-item {
+    height: 70vh;
+}
+
+.cs {
+   
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.carousel-caption{
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-two {
+    background: url(../media/about-bg.png) no-repeat bottom right;
+    background-size: 15%;  
+}
+.nav-link:hover{
+    color:#EB3007;
+}
+footer{
+    background: #CFCFCF;
+    color: brown;
+}
+.inner-logo i{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.container-1{
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+  /* .inner-button{
+    position: absolute;
+    top: calc(25% );
+    left: calc(25% );
+    background: #fff;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+} */
+.inner-wrap{
+    position: relative;
+}
+.section-two{
+    height: 80vh;
+}
+.section-three{
+    background: url(../media/chefthand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.inner-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-logo i{
+    padding-top: 15px;  
+    color: white;
+    font-size: 35px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    text-align: center;
+}
+footer .inner-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+h4{
+    margin: 0;
+}
